@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Tic Tac Toe</h1>
+    <div id="player-choice">
+        <h3>Choose your symbol:</h3>
+        <button id="choose-x">Play as X</button>
+        <button id="choose-o">Play as O</button>
+    </div>
+    <div id="mode-selection" style="display:none;">
+        <h3>Select Game Mode:</h3>
+        <button id="pvp-mode">Player vs Player</button>
+        <button id="ai-mode">Player vs AI</button>
+    </div>
+    <div id="game-container" style="display:none;">
+        
+        <div class="turn-container">
+            <h3>Turn For</h3>
+        </div>
+        <div id="status">Player X's turn</div>
+        <div id="board"></div>
+        <button id="restart">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
